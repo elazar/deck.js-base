@@ -32,23 +32,27 @@ Here are a few things you can do to tailor this base to your liking:
 
 If this project gets behind the current stable branch of [deck.js](https://github.com/imakewebthings/deck.js "imakewebthings/deck.js"), just clone the deck.js repo, check out the stable branch, and update the relevant files:
 
-* `deck.js/core/deck.core.css` -> `deck.js-base/css/deck.core.css`
-* `deck.js/extensions/hash/deck.hash.css` -> `deck.js-base/css/extensions/deck.hash.css`
-* `deck.js/extensions/menu/deck.menu.css` -> `deck.js-base/css/extensions/deck.menu.css`
-* `deck.js/themes/style/swiss.css` -> `deck.js-base/css/style/swiss.css`
-* `deck.js/themes/transition/horizontal-slide.css` -> `deck.js-base/css/transition/horizontal-slide.css`
-* `deck.js/modernizr.custom.js` -> `deck.js-base/js/modernizr.custom.js`
-* `deck.js/jquery-1.7.min.js` -> `deck.js-base/js/jquery.min.js`
-* `deck.js/core/deck.core.js` -> `deck.js-base/js/deck.core.js`
-* `deck.js/extensions/hash/deck.hash.js` -> `deck.js-base/js/extensions/deck.hash.js`
-* `deck.js/extensions/menu/deck.menu.js` -> `deck.js-base/js/extensions/deck.menu.js`
+```bash
+cp deck.js/core/deck.core.css deck.js-base/css/deck.core.css
+cp deck.js/extensions/hash/deck.hash.css deck.js-base/css/extensions/deck.hash.css
+cp deck.js/extensions/menu/deck.menu.css deck.js-base/css/extensions/deck.menu.css
+cp deck.js/themes/style/swiss.css deck.js-base/css/style/swiss.css
+cp deck.js/themes/transition/horizontal-slide.css deck.js-base/css/transition/horizontal-slide.css
+cp deck.js/modernizr.custom.js deck.js-base/js/modernizr.custom.js
+cp deck.js/jquery-1.7.min.js deck.js-base/js/jquery.min.js
+cp deck.js/core/deck.core.js deck.js-base/js/deck.core.js
+cp deck.js/extensions/hash/deck.hash.js deck.js-base/js/extensions/deck.hash.js
+cp deck.js/extensions/menu/deck.menu.js deck.js-base/js/extensions/deck.menu.js
+```
 
 Same with [SyntaxHighlighter](https://github.com/alexgorbatchev/SyntaxHighlighter "alexgorbatchev/SyntaxHighlighter"), which uses the master branch for stable code:
 
-* `SyntaxHighlighter/styles/shCoreDefault.css` -> `deck.js-base/js/sh/shCoreDefault.css`
-* `SyntaxHighlighter/scripts/shCore.js` -> `deck.js-base/js/sh/shCore.js`
-* `SyntaxHighlighter/scripts/shBrushPhp.js` -> `deck.js-base/js/sh/shBrushPhp.js`
-* `SyntaxHighlighter/scripts/shBrushXml.js` -> `deck.js-base/js/sh/shBrushXml.js`
+```bash
+cp SyntaxHighlighter/styles/shCoreDefault.css deck.js-base/js/sh/shCoreDefault.css
+cp SyntaxHighlighter/scripts/shCore.js deck.js-base/js/sh/shCore.js
+cp SyntaxHighlighter/scripts/shBrushPhp.js deck.js-base/js/sh/shBrushPhp.js
+cp SyntaxHighlighter/scripts/shBrushXml.js deck.js-base/js/sh/shBrushXml.js
+```
 
 # Contributing
 
