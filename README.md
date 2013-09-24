@@ -54,6 +54,12 @@ cp SyntaxHighlighter/scripts/shBrushPhp.js deck.js-base/js/sh/shBrushPhp.js
 cp SyntaxHighlighter/scripts/shBrushXml.js deck.js-base/js/sh/shBrushXml.js
 ```
 
+A quick way to run these in bash:
+
+```bash
+grep -E '^cp ' deck.js-base/README.md | while read cmd; do $cmd; done
+```
+
 # Contributing
 
 I'm certainly open to improving this deck.js base. If you have suggestions, feel free to message me on GitHub or send me a pull request. Thanks in advance for your contribution. 
