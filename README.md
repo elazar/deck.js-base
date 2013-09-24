@@ -1,6 +1,6 @@
 # Introduction
 
-This repo provides a starting point for a slide deck based on [deck.js](http://imakewebthings.com/deck.js/ "deck.js"). It includes the following: 
+This repo provides a starting point for a slide deck based on [deck.js](http://imakewebthings.com/deck.js/ "deck.js"). It includes the following:
 
 * Core deck.js files including the Swiss theme and horizontal slide transition ([stable branch](https://github.com/imakewebthings/deck.js/tree/stable "imakewebthings/deck.js at stable") as of 2013-09-24)
 * deck.hash and deck.menu [extensions](http://imakewebthings.com/deck.js/introduction/#extensions-menu "deck.js extensions")
@@ -14,9 +14,9 @@ Open `index.html` in your preferred text editor. Update the `title` tag value an
 
 At this point, you can open `index.html` in a browser and see your title slide. If you want to add any custom CSS, you can do it in `css/deck.custom.css`. It's already included by `index.html`. The same applies to `js/deck.custom.js` for custom JS. `index.html` also includes the version of [jQuery](http://jquery.com "jQuery") bundled with deck.js (currently 1.7), as is the SyntaxHighlighter library.
 
-To create new slides, copy and paste the `div` block below the one for the title slide (it has `id="new-slide"`), change the `div` tag `id` attribute value and the `h2` tag value, and add your content. See the [deck.js introduction](http://imakewebthings.com/deck.js/introduction/ "Getting Started with deck.js") for more information on how to format slide markup. You can use SyntaxHighlighter to [add source code highlighting](http://alexgorbatchev.com/SyntaxHighlighter/manual/installation.html#pre__method "SyntaxHighlighter - Installation"). 
+To create new slides, copy and paste the `div` block below the one for the title slide (it has `id="new-slide"`), change the `div` tag `id` attribute value and the `h2` tag value, and add your content. See the [deck.js introduction](http://imakewebthings.com/deck.js/introduction/ "Getting Started with deck.js") for more information on how to format slide markup. You can use SyntaxHighlighter to [add source code highlighting](http://alexgorbatchev.com/SyntaxHighlighter/manual/installation.html#pre__method "SyntaxHighlighter - Installation").
 
-I typically create an `img` directory on the same level as the `css` and `js` directories and store any image files there, then reference them using relative paths as in the example below. You'll have to create the directory yourself as git doesn't support tracking empty directories. 
+I typically create an `img` directory on the same level as the `css` and `js` directories and store any image files there, then reference them using relative paths as in the example below. You'll have to create the directory yourself as git doesn't support tracking empty directories.
 
     <img src="img/filename.png">
 
@@ -62,4 +62,4 @@ grep -E '^cp ' deck.js-base/README.md | while read cmd; do $cmd; done
 
 # Contributing
 
-I'm certainly open to improving this deck.js base. If you have suggestions, feel free to message me on GitHub or send me a pull request. Thanks in advance for your contribution. 
+I'm certainly open to improving this deck.js base. If you have suggestions, feel free to message me on GitHub or send me a pull request. Thanks in advance for your contribution.
