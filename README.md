@@ -2,7 +2,7 @@
 
 This repo provides a starting point for a slide deck based on [deck.js](http://imakewebthings.com/deck.js/ "deck.js"). It includes the following: 
 
-* Core deck.js files including the Swiss theme and horizontal slide transition ([stable branch](https://github.com/imakewebthings/deck.js/tree/stable "imakewebthings/deck.js at stable") as of 2012-03-06)
+* Core deck.js files including the Swiss theme and horizontal slide transition ([stable branch](https://github.com/imakewebthings/deck.js/tree/stable "imakewebthings/deck.js at stable") as of 2013-09-24)
 * deck.hash and deck.menu [extensions](http://imakewebthings.com/deck.js/introduction/#extensions-menu "deck.js extensions")
 * [SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/ "SyntaxHighlighter") library (3.0.83) with the default [theme](http://alexgorbatchev.com/SyntaxHighlighter/manual/themes/ "SyntaxHighlighter - Themes") and PHP and XML [brushes](http://alexgorbatchev.com/SyntaxHighlighter/manual/brushes/ "SyntaxHighlighter - Brushes")
 
