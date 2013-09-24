@@ -39,7 +39,7 @@ cp deck.js/extensions/menu/deck.menu.css deck.js-base/css/extensions/deck.menu.c
 cp deck.js/themes/style/swiss.css deck.js-base/css/style/swiss.css
 cp deck.js/themes/transition/horizontal-slide.css deck.js-base/css/transition/horizontal-slide.css
 cp deck.js/modernizr.custom.js deck.js-base/js/modernizr.custom.js
-cp deck.js/jquery-1.7.min.js deck.js-base/js/jquery.min.js
+cp deck.js/jquery-1.7*.min.js deck.js-base/js/jquery.min.js
 cp deck.js/core/deck.core.js deck.js-base/js/deck.core.js
 cp deck.js/extensions/hash/deck.hash.js deck.js-base/js/extensions/deck.hash.js
 cp deck.js/extensions/menu/deck.menu.js deck.js-base/js/extensions/deck.menu.js
