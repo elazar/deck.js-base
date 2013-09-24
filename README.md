@@ -12,7 +12,7 @@ Like deck.js itself, this project is licensed under the [MIT License](http://www
 
 Open `index.html` in your preferred text editor. Update the `title` tag value and `meta` tag attribute values at the top. Scroll down to within the `body` tag and find the `div` tag with the `id` attribute value of `title-slide`. Within that `div` tag, update the `h1` and `h2` tags.
 
-At this point, you can open `index.html` in a browser and see your title slide. If you want to add any custom CSS, you can do it in `css/deck.custom.css`. It's already included by `index.html`. The same applies to `js/deck.custom.js` for custom JS. `index.html` also includes the version of [jQuery](http://jquery.com "jQuery") bundled with deck.js (currently 1.7) as well as the SyntaxHighlighter library.
+At this point, you can open `index.html` in a browser and see your title slide. If you want to add any custom CSS, you can do it in `css/deck.custom.css`. It's already included by `index.html`. The same applies to `js/deck.custom.js` for custom JS. `index.html` also includes the version of [jQuery](http://jquery.com "jQuery") bundled with deck.js (currently 1.7.2) as well as the SyntaxHighlighter library.
 
 To create new slides, copy and paste the `div` block below the one for the title slide (it has `id="new-slide"`), change the `div` tag `id` attribute value and the `h2` tag value, and add your content. See the [deck.js introduction](http://imakewebthings.com/deck.js/introduction/ "Getting Started with deck.js") for more information on how to format slide markup. You can use SyntaxHighlighter to [add source code highlighting](http://alexgorbatchev.com/SyntaxHighlighter/manual/installation.html#pre__method "SyntaxHighlighter - Installation").
 
