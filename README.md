@@ -4,7 +4,8 @@ This repo provides a starting point for a slide deck based on [deck.js](http://i
 
 * Core deck.js files including the Swiss theme ([stable branch](https://github.com/imakewebthings/deck.js/tree/latest "imakewebthings/deck.js at latest") as of 2015-04-26)
 * deck.menu extension
-* [SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/ "SyntaxHighlighter") library (3.0.9) with the default [theme](http://alexgorbatchev.com/SyntaxHighlighter/manual/themes/ "SyntaxHighlighter - Themes") and PHP and XML [brushes](http://alexgorbatchev.com/SyntaxHighlighter/manual/brushes/ "SyntaxHighlighter - Brushes")
+* [rainbow](https://github.com/ccampbell/rainbow/) library (1.1.9) with the [github theme](https://github.com/ccampbell/rainbow/blob/master/themes/github.css) and PHP and HTML [languages](https://github.com/ccampbell/rainbow/tree/master/js/language)
+* [rainbow.linenumbers extension](https://github.com/Sjeiti/rainbow.linenumbers)
 
 Like deck.js itself, this project is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php "Open Source Initiative OSI - The MIT License").
 
@@ -26,7 +27,7 @@ Here are a few things you can do to tailor this base to your liking:
 
 * Change the deck.js [theme or transition](https://github.com/imakewebthings/deck.js/tree/stable/themes "makewebthings/deck.js at stable")
 * Remove or add deck.js extensions
-* Change the SyntaxHighlighter [theme](http://alexgorbatchev.com/SyntaxHighlighter/manual/themes/ "SyntaxHighlighter - Themes") or [brushes](http://alexgorbatchev.com/SyntaxHighlighter/manual/brushes/ "SyntaxHighlighter - Brushes")
+* Change the rainbow [theme](https://github.com/ccampbell/rainbow/tree/master/themes) or [languages](https://github.com/ccampbell/rainbow/tree/master/js/language)
 * Hack in some custom JS - the [deck.js docs](http://imakewebthings.com/deck.js/docs/ "Docs - deck.js") might be handy for this
 * Try upgrading dependencies, like [Modernizr](http://www.modernizr.com/ "Modernizr") or [jQuery](http://jquery.com "jQuery") - this could break things, so back up the current versions first
 
@@ -42,31 +43,6 @@ cp deck.js/jquery.min.js deck.js-base/js/jquery.min.js
 cp deck.js/core/deck.core.js deck.js-base/js/deck.core.js
 cp deck.js/extensions/menu/deck.menu.js deck.js-base/js/extensions/deck.menu.js
 ```
-
-To update [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter "syntaxhighlighter/syntaxhighlighter"):
-
-1. [Install SASS](http://sass-lang.com/install)
-2. Either clone the git repo or download and decompress the archive:
-
-    ```bash
-    # Either:
-    git clone git@github.com:syntaxhighlighter/syntaxhighlighter.git
-    cd syntaxhighlighter
-    git checkout v3.0.9
-    # or:
-    wget -c https://github.com/syntaxhighlighter/syntaxhighlighter/archive/v3.0.9.zip
-    unzip v3.0.9.zip
-    mv syntaxhighlighter-3.0.9 syntaxhighlighter
-    ```
-
-3. Compile the core stylesheet and copy the JS files:
-
-    ```bash
-    sass syntaxhighlighter/src/sass/shCoreDefault.scss deck.js-base/js/sh/shCoreDefault.css
-    cp syntaxhighlighter/src/js/shCore.js deck.js-base/js/sh/shCore.js
-    cp syntaxhighlighter/src/js/shBrushPhp.js deck.js-base/js/sh/shBrushPhp.js
-    cp syntaxhighlighter/src/js/shBrushXml.js deck.js-base/js/sh/shBrushXml.js
-    ```
 
 # Contributing
 

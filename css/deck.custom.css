@@ -1,9 +1,14 @@
-/* Some base CSS customizations I've found useful -- feel free to remove them if you don't need them */
-#title-slide h1 { top: 20%; font-size: 2.5em; margin-top: 20%; position: relative; }
-#title-slide h2 { width: 100%; text-align: center; color: #aaaaaa; border: 0; position: relative;}
 .deck-container h2 { border-bottom: 0; font-size: 2em; }
 .deck-container img { display: inline; }
-.slide { font-size: 120% !important; }
+.deck-container .slide a { color: #d24429 !important; }
+.deck-container .slide { background-color: #eeeeee; }
+.deck-container .slide blockquote cite { color: #666; }
+.deck-container .slide blockquote, .deck-container .slide blockquote cite { font-size: 1em; font-weight: normal; }
+.deck-container .slide code { position: relative; }
+.deck-container .slide h1, .deck-container .slide h2, .deck-container .slide h3 { font-family: 'Droid Serif', serif; color: #d24429; text-align: center; }
+.deck-container .slide pre { margin-left: auto; margin-right: auto; position: relative; width: 70%; }
+.deck-container .slide .rainbow { font-size: 2em; }
+.deck-container .slide .rainbow .line { margin-right: 1em; line-height: 140%; background-color: #d8d8d8; }
 .slide h2 { width: 100%; text-align: center; }
-
-/* Your own custom CSS goes here */
+#title-slide h1 { width: 100%; font-size: 2.5em; text-align: center; border: 0; padding: 0; margin-left: auto; margin-right: auto; position: absolute; top: 0; margin-top: 15%; }
+#title-slide h2 { color: #000000; position: absolute; margin-top: 20%; }

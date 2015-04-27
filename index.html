@@ -22,26 +22,22 @@
 	<link rel="stylesheet" id="style-theme-link" href="css/style/swiss.css"/>
 
 	<!-- Custom CSS files -->
-	<link rel="stylesheet" href="js/sh/shCoreDefault.css"/>
 	<link rel="stylesheet" href="css/deck.custom.css"/>
+	<link rel="stylesheet" href="css/rainbow/github.css"/>
 
 	<!-- JS files that must be included in the document head -->
 	<script src="js/modernizr.custom.js"></script>
-	<script src="js/sh/shCore.js"></script>
-	<script src="js/sh/shBrushPhp.js"></script>
-	<script src="js/sh/shBrushXml.js"></script>
 </head>
 <body class="deck-container">
 
-<div class="slide" id="title-slide">
+<section class="slide" id="title-slide">
 <h1></h1>
 <h2></h2>
-</div>
+</section>
 
-<div class="slide" id="new-slide">
+<section class="slide" id="new-slide">
 <h2></h2>
-
-</div>
+</section>
 
 <!-- Core JS and extension files -->
 <script src="js/jquery.min.js"></script>
@@ -50,11 +46,14 @@
 
 <!-- Custom JS files -->
 <script src="js/deck.custom.js"></script>
+<script src="js/rainbow/rainbow.min.js"></script>
+<script src="js/rainbow/php.js"></script>
+<script src="js/rainbow/html.js"></script>
+<script src="js/rainbow/rainbow.linenumbers.min.js"></script>
 
-<!-- Activate deck.js and SyntaxHighlighter -->
+<!-- Activate deck.js -->
 <script type="text/javascript">
 $(function() { $.deck('.slide'); });
-SyntaxHighlighter.all();
 </script>
 
 </body>
